@@ -86,39 +86,3 @@ function reset(){
     userseq=[];
     level=0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// let gameseq = [];
-// let userseq = [];
-
-// let started = false;
-// let level = 0;
-
-// const levelElement = document.getElementById("l");
-// console.log(levelElement);
-
-// document.addEventListener("keypress", function() {
-//     console.log("Game Started");
-//     started = true;
-//     generateSequence();
-// });
-
-// function generateSequence() {
-//     if (started) {
-//         const randomNumber = Math.floor(Math.random() * 4);
-//         gameseq.push(randomNumber);
-//         console.log(gameseq);
-//         level++;
-//         levelElement.textContent = `Level: ${level}`;
-//     }
-// }
